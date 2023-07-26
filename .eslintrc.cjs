@@ -5,7 +5,8 @@ module.exports = {
     },
     "extends": [
         "standard-with-typescript",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        'plugin:@typescript-eslint/recommended-requiring-type-checking'
     ],
     "overrides": [
         {
@@ -31,6 +32,9 @@ module.exports = {
     "rules": {
         "react/react-in-jsx-scope": "off",
         "@typescript-eslint/space-before-function-paren": "off",
-        "@typescript-eslint/semi": "off"
+        "@typescript-eslint/semi": "off",
+        "no-trailing-spaces": "off",
+        "no-multiple-empty-lines":"off",
+        "@typescript-eslint/comma-dangle": "off"
     }
 }
