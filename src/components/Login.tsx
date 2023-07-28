@@ -1,7 +1,7 @@
 const Login: React.FC = () => {
   return (
     <div className="h-screen flex flex-wrap justify-center content-center bg-[url('/src/assets/large-triangles.png')] bg-repeat text-white">
-      <form className="flex flex-col justify-center border-solid border border-gray-800 bg-gray-800/90 border-gray-400 rounded-md basis-1/3 p-8">
+      <form className="flex flex-col justify-center border-solid border border-gray-800 bg-gray-800/90 rounded-md basis-1/3 p-8">
         <div className="flex flex-col">
           <h4 className="text-center font-bold mb-2 mt-[-1em]">Inicia sesion con</h4>
           <button className="bg-gray-700 hover:bg-gray-900 rounded-md text-gray-200 p-1 "><i className="fa-brands fa-steam"></i> Iniciar o crear cuenta con Steam</button>

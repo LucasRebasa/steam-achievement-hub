@@ -35,6 +35,7 @@ module.exports = {
         "@typescript-eslint/semi": "off",
         "no-trailing-spaces": "off",
         "no-multiple-empty-lines":"off",
-        "@typescript-eslint/comma-dangle": "off"
+        "@typescript-eslint/comma-dangle": "off",
+        "react/prop-types": "off"
     }
 }
